@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+#grid{
+	display:grid;
+	background:green;
+	grid-template-columns:repeat(4,242.5px);
+	grid-template-rows:repeat(5,124px);
+	font-size:3rem;
+	grid-gap:10px 10px ;
+	background:white;
+	
+}
+div{
+	border:3px solid white;
+	color:white;
+	background:green;
+}
+.div1{
+	
+	grid-column:span  4;
+}
+.div2{
+ 
+	grid-row:span 4;
+}
+.div4{
+	 
+	grid-column:span 2;
+}
+.div5{
+
+	grid-column:span 2;
+}
+.div10{
+	 
+		grid-column:span 3;
+}
